@@ -56,7 +56,7 @@ public class EmployeeController
 		}
         
 		@ApiOperation(value ="Delete Employee",notes ="This API is used to delete employee data using employee_id")
-		@ApiResponses(value={@ApiResponse(code=201,message="Data deleted successfully"), @ApiResponse(code=404,message="Id not found")})
+		@ApiResponses(value={@ApiResponse(code=200,message="Data deleted successfully"), @ApiResponse(code=404,message="Id not found")})
 		@DeleteMapping("/delete/{id}")
 		public ResponseEntity<ResponseStructure<Employee>> deleteEmployee(@PathVariable int id) {
 			return service.deleteEmployee(id);
