@@ -7,7 +7,7 @@ The StaffLink is designed to manage employee data through a RESTful API. This Sp
    the available endpoints, request parameters, and response formats. <br>
 •	API Testing with Postman: Used Postman to thoroughly test the API endpoints for correctness and reliability.<br>
 •	Response Structure and Response Entity: A custom response structure is used to return meaningful responses, including message and data, with appropriate status code. The Response Entity 
-   class is employed for flexible HTTP response management.<br>
-   Environment :- Spring Boot, MYSQL, POSTMAN, Swagger
+   class is employed for flexible HTTP response management.<br><br>
+   Technologies and Tools :- Spring Boot, MYSQL, POSTMAN, Swagger
 
 
