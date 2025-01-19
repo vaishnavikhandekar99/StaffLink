@@ -1,4 +1,5 @@
 # STAFFLINK
+The StaffLink is designed to manage employee data through a RESTful API. This Spring Boot-based system allows users to perform CRUD (Create, Read, Update, Delete) operations on employee records. It provides a user-friendly interface for managing employee information. <br>
 •	Implemented CRUD Operations: Developed and exposed RESTful API endpoints that allow users to create, read, update, and delete employee records.
 •	Custom Exception Handling: Designed and implemented a custom exception handling mechanism to catch and handle errors in the application.
 •	Field Validation: Integrated data validation using Spring Boot’s validation annotations to ensure that incoming data meets the required formats and constraints before processing it.
